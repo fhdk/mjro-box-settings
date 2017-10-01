@@ -1,0 +1,1 @@
+conky -c ~/.config/conky/box.conkyrc & sleep 1s
