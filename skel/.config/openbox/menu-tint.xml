@@ -75,8 +75,8 @@
       </item>
     </menu>
     <separator/>
-    <menu execute="/usr/local/bin/box-places-pipemenu" id="pipe-placesmenu" label="Places"/>
-    <menu execute="/usr/local/bin/box-recent-files-pipemenu" id="pipe-recentfilesmenu" label="Recent Files"/>
+    <menu execute="box-places-pipemenu" id="pipe-placesmenu" label="Places"/>
+    <menu execute="box-recent-files-pipemenu" id="pipe-recentfilesmenu" label="Recent Files"/>
     <separator/>
     <menu id="preferences" label="Preferences">
       <menu id="obConfig" label="Openbox">
