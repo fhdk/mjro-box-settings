@@ -1,3 +1,4 @@
+<?xml version="1.0"?>
 <openbox_config>
   <resistance>
     <strength>10</strength>
@@ -39,7 +40,7 @@
                     'Active' - where the active window is -->
   </placement>
   <theme>
-    <name>United-Archlabs-Dark</name>
+    <name>Syscrash</name>
     <titleLayout>NLIMC</titleLayout>
     <!--
       available characters are NDSLIMC, each can occur at most once.
@@ -389,7 +390,7 @@
         <command>xfce4-settings-manager</command>
       </action>
     </keybind>
-<!--
+    <!--
 Beginning of tile binds
 -->
     <keybind key="W-KP_1">
@@ -512,7 +513,7 @@ Beginning of tile binds
         <width>50%</width>
       </action>
     </keybind>
-<!--
+    <!--
 End of Tiling Binds
  -->
   </keyboard>
@@ -861,11 +862,11 @@ End of Tiling Binds
     <!-- show the manage desktops section in the client-list-(combined-)menu -->
   </menu>
   <applications>
-      <application name="oblogout">
-        <position force="no">
-          <monitor>1</monitor>
-        </position>
-        <fullscreen>yes</fullscreen>
-      </application>
+    <application name="oblogout">
+      <position force="no">
+        <monitor>1</monitor>
+      </position>
+      <fullscreen>yes</fullscreen>
+    </application>
   </applications>
 </openbox_config>
