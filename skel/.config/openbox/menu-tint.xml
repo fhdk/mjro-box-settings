@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<openbox_menu>
-  <menu id="root-menu" label="Openbox Manjaro">
-    <separator label="Openbox Manjaro"/>
+<openbox_menu xmlns="http://openbox.org/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://openbox.org/">
+  <menu id="root-menu" label="Openbox 3">
+    <separator label="Boxed Manjaro"/>
     <item label="Terminal">
       <action name="Execute">
         <command>exo-open --launch TerminalEmulator</command>
@@ -43,12 +43,12 @@
     <menu id="screenshot" label="Screenshot">
       <item label="Screenshot Now">
         <action name="Execute">
-          <command>scrot 'box_screen_%Y-%m-%d-%S_$wx$h.png' -e 'mv $f $$(xdg-user-dir PICTURES) ; gpicview $$(xdg-user-dir PICTURES)/$f'</command>
+          <command>scrot 'box_screen_%Y-%m-%d-%S_$wx$h.png' -e 'mv $f $$(xdg-user-dir PICTURES); gpicview $$(xdg-user-dir PICTURES)/$f'</command>
         </action>
       </item>
       <item label="Screenshot in 5">
         <action name="Execute">
-          <command>scrot -d 5 'box_screen_%Y-%m-%d-%S_$wx$h.png' -e 'mv $f $$(xdg-user-dir PICTURES) ; gpicview $$(xdg-user-dir PICTURES)/$f'</command>
+          <command>scrot -d 5 'box_screen_%Y-%m-%d-%S_$wx$h.png' -e 'mv $f $$(xdg-user-dir PICTURES); gpicview $$(xdg-user-dir PICTURES)/$f'</command>
         </action>
       </item>
       <item label="Screenshot in 10">

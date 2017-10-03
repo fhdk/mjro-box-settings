@@ -1,5 +1,4 @@
-<?xml version="1.0"?>
-<openbox_config>
+<openbox_config xmlns="http://openbox.org/3.4/rc" xmlns:xi="http://www.w3.org/2001/XInclude">
   <resistance>
     <strength>10</strength>
     <screen_edge_strength>20</screen_edge_strength>
@@ -390,7 +389,7 @@
         <command>xfce4-settings-manager</command>
       </action>
     </keybind>
-    <!--
+<!--
 Beginning of tile binds
 -->
     <keybind key="W-KP_1">
@@ -513,7 +512,7 @@ Beginning of tile binds
         <width>50%</width>
       </action>
     </keybind>
-    <!--
+<!--
 End of Tiling Binds
  -->
   </keyboard>
@@ -862,11 +861,11 @@ End of Tiling Binds
     <!-- show the manage desktops section in the client-list-(combined-)menu -->
   </menu>
   <applications>
-    <application name="oblogout">
-      <position force="no">
-        <monitor>1</monitor>
-      </position>
-      <fullscreen>yes</fullscreen>
-    </application>
+      <application name="oblogout">
+        <position force="no">
+          <monitor>1</monitor>
+        </position>
+        <fullscreen>yes</fullscreen>
+      </application>
   </applications>
 </openbox_config>
